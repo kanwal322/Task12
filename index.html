@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Internship Photo Gallery</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="gallery-header">
+    <h1>Internship Photo Gallery</h1>
+    <p>A glimpse into our remote internship journey.</p>
+  </header>
+
+  <main class="gallery-container">
+    
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="pexels-markusspiske-4439901.jpg" alt="Internship Image 1" loading="lazy">
+        <p class="image-title">Team Brainstorming</p>
+      </div>
+      <div class="gallery-item">
+        <img src="converted_image.webp" alt="Internship Image 2" loading="lazy">
+        <p class="image-title">Remote Meeting</p>
+      </div>
+      <div class="gallery-item">
+        <img src="converted_image_2 (1).webp" alt="Internship Image 3" loading="lazy">
+        <p class="image-title">UI/UX Discussion</p>
+      </div>
+      <div class="gallery-item">
+        <img src="converted_image_3 (1).webp" alt="Internship Image 4" loading="lazy">
+        <p class="image-title">Code Review Session</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pexels-fauxels-3183197.jpg" alt="Internship Image 5" loading="lazy">
+        <p class="image-title">Project Planning</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pexels-olly-935743.jpg" alt="Internship Image 6" loading="lazy">
+        <p class="image-title">Team Collaboration</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pexels-shvetsa-4226122.jpg" alt="Internship Image 7" loading="lazy">
+        <p class="image-title">Work from Home</p>
+      </div>
+      <div class="gallery-item">
+        <img src="pexels-shvetsa-12662884.jpg" alt="Internship Image 8" loading="lazy">
+        <p class="image-title">Internship Finale</p>
+      </div>
+    </div>
+  </main>
+
+  
+  <div class="lightbox" id="lightbox">
+    <span class="close-btn" id="closeBtn">&times;</span>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Preview" />
+    <span class="nav-arrow left-arrow" id="prevBtn">&#10094;</span>
+    <span class="nav-arrow right-arrow" id="nextBtn">&#10095;</span>
+  </div>
+
+  
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+  
+  <button id="themeToggleBtn" title="Toggle Theme">🌓</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
